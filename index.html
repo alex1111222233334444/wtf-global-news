@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WTF - What The Facts</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #182230;
+}
+header {
+  background: #fff;
+  padding: 22px 6%;
+  border-bottom: 1px solid #e2e6ec;
+}
+.logo { font-size: 27px; font-weight: 800; color: #163b70; }
+.tagline { color: #687386; margin-top: 5px; font-size: 14px; }
+nav {
+  background: #163b70;
+  padding: 14px 6%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+nav a { color: white; text-decoration: none; font-size: 14px; }
+main { max-width: 1150px; margin: 30px auto; padding: 0 18px; }
+h2 { color: #163b70; }
+.breaking {
+  background: #b42318;
+  color: white;
+  padding: 13px 18px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.card {
+  background: white;
+  padding: 22px;
+  margin: 18px 0;
+  border-radius: 9px;
+  border: 1px solid #e3e8ef;
+}
+.story { padding: 15px 0; border-bottom: 1px solid #e5e9ef; }
+.story:last-child { border: 0; }
+.category { color: #1762a6; font-size: 12px; font-weight: bold; }
+.status {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 4px;
+  background: #fff2cc;
+  color: #805b00;
+  font-size: 12px;
+}
+.map {
+  min-height: 180px;
+  background: #eaf0f7;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 25px;
+  color: #385477;
+}
+input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccd4df;
+  border-radius: 6px;
+  font-size: 15px;
+}
+footer {
+  text-align: center;
+  padding: 28px;
+  color: #687386;
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">WTF — WHAT THE FACTS</div>
+  <div class="tagline">No propaganda. No political agenda. Just facts. 🌍</div>
+</header>
+
+<nav>
+  <a href="#breaking">Breaking News</a>
+  <a href="#map">World Map</a>
+  <a href="#wars">Wars & Conflicts</a>
+  <a href="#countries">Countries</a>
+  <a href="#economy">Economy</a>
+  <a href="#science">Science & Technology</a>
+</nav>
+
+<main>
+  <div class="breaking">● WORLD BREAKING NEWS — WTF GLOBAL NEWS</div>
+
+  <section class="card" id="breaking">
+    <h2>World Breaking News</h2>
+    <p>Important developments from around the world.</p>
+    <div class="story">
+      <span class="category">GLOBAL NEWS</span>
+      <h3>Welcome to WTF — What The Facts</h3>
+      <p>Your independent destination for global news, evidence and context.</p>
+      <span class="status">DEMO — LIVE NEWS NOT CONNECTED</span>
+    </div>
+  </section>
+
+  <section class="card" id="map">
+    <h2>🌍 Interactive World Map</h2>
+    <div class="map">
+      <div>
+        <h3>Global Events Map</h3>
+        <p>Explore wars, conflicts and major geopolitical developments.</p>
+        <p><strong>Interactive map integration coming next.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" id="wars">
+    <h2>⚔️ Wars & Military Conflicts</h2>
+    <p>Ongoing wars, military operations, ceasefires and peace negotiations.</p>
+  </section>
+
+  <section class="card" id="countries">
+    <h2>🏳️ Countries</h2>
+    <p>Explore national news, government decisions and international relations.</p>
+  </section>
+
+  <section class="card" id="economy">
+    <h2>📊 Global Economy</h2>
+    <p>Trade, energy, inflation and major financial developments.</p>
+  </section>
+
+  <section class="card" id="science">
+    <h2>🔬 Science, Technology & AI</h2>
+    <p>Scientific discoveries, artificial intelligence and space exploration.</p>
+  </section>
+
+  <section class="card">
+    <h2>🔎 Search Global News</h2>
+    <input type="search" placeholder="Search countries, conflicts, leaders and events...">
+    <p>Search functionality will be connected in a later step.</p>
+  </section>
+</main>
+
+<footer>
+  WTF — WHAT THE FACTS<br>
+  Independent global news. Evidence before opinion.
+</footer>
+
+</body>
+</html>
